@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coinbase</title>
+    <script>
+        function toggleText() {
+            var text = 
+            document.getElementById("oneclick");
+            text.innerHTML = (text.innerHTML === "$0.00") ? "*****" : "$0.00"
+        }
+        </script>
+    <style>
+        body{
+            background-color: rgb(0, 0, 0);
+        }
+        .container{
+            max-width: 400px;
+            margin: auto;
+            display: flex;
+            inline-size: auto;
+            justify-content: center;
+            align-items: left;
+            background-color: rgb(255, 255, 255);
+            height: 670px;
+            border: 0px;
+            
+        }
+        .whitecontainer{
+            width: 400px;
+            background-color: rgb(0, 89, 255);
+            height: 300px;
+            border: 0px;
+        }
+        .span1{
+            color: white;
+            font-family:'Times New Roman', Times, serif;
+            size: 60px;
+            margin-top: 80px;
+            text-align: center;
+            font-size: 50px;  
+        }
+        .span2{
+           
+           color: white;
+           margin-top: 1px;
+           font-size: xx-small;
+           text-align: center;
+        }
+        a{
+            color: white;
+            
+        }
+        .box{
+            
+           
+            background-color: white;
+            width: 350px;
+            height: 120px;
+            margin-left: 23px;
+            margin-top: 80px;
+            box-shadow: 0 0 15px rgb(171, 178, 196);
+            border-radius: 10px;
+            
+        
+            
+        }
+        .bitcoin{
+          
+            background-image: url(bitcoin.png);
+            height: 50px;
+            margin-top: 23px;
+            background-color: white;
+            background-size: 55px;
+            background-repeat: no-repeat;
+        }
+        .bitcoinword{
+            margin-left: 50px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .bitcoinword2{
+            margin-left: 170px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .following{
+           margin-left: 20px;
+        }
+        .BTC{
+            font-size: xx-small;
+            margin-left: 51px;
+        }
+        .drop{
+            margin-left: 230px;
+            font-size: xx-small;
+        }
+        .bigcontainer{
+            background-color: white;
+            width: 350px;
+            height: 220px;
+            margin-left: 23px;
+            margin-top: 20px;
+            box-shadow: 0 0 15px rgb(171, 178, 196);
+            border-radius: 10px;
+        }
+        .bitcoin01{
+            background-image: url(yes.jpeg);
+            height: 39px;
+            background-color: white;
+            background-size: 30px;
+            background-repeat: no-repeat;  
+            margin-left: 10px;
+
+        }
+        .bitcoin02{
+            background-image: url(BNB.png);
+            height: 39px;
+            
+            background-color: white;
+            background-size: 30px;
+            background-repeat: no-repeat;
+            margin-left: 10px;
+        }
+        .bitcoin03{
+            background-image: url(LTC.jpeg);
+            height: 39px;
+            
+            background-color: white;
+            background-size: 50px;
+            background-repeat: no-repeat;
+        }
+        .bitcoin04{
+            background-image: url(BCH.png);
+            height: 39px;
+            margin-left: 10px;
+            background-color: white;
+            background-size: 32px;
+            background-repeat: no-repeat;
+        }
+        .bitcoinword3{
+            margin-left: 179px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .bitcoinword4{
+            margin-left: 193px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .bitcoinword5{
+            margin-left: 182px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .INVEST{
+            margin-top: 30px;
+            background-color: rgb(43, 18, 187);
+            border:none;
+            width: 100px;
+            height: 29px;
+            color: beige;
+            border-radius: 50px;
+        }
+        .INVEST:hover{
+            background-color: rgb(255, 255, 255);
+        }
+        .INVEST:active{
+            background-color: rgb(0, 89, 255) ;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        
+  <div class="whitecontainer">
+<div id="oneclick" onclick="toggleText()" class="span1">
+    $0.00
+    <br>
+</div>
+    <div class="span2">
+    <a href="#">Your account ></a><p>
+
+    <button class="INVEST"><a href="investpage.html">INVEST</a></button>
+    </div>
+
+     <div class="box">
+      
+       <span class="following">Following</span>
+        <div class="bitcoin">
+            
+           <span class="bitcoinword"> Bitcoin</span><span class="bitcoinword2">$19,625.35</span><br>
+           <span class="BTC">BTC</span> <span class="drop">+36.5%</span>
+        </div>
+        
+     </div>
+     <div class="bigcontainer">
+        <div class="bitcoin01"> <span class="bitcoinword"> Etherium</span><span class="bitcoinword2">$3,450</span><br>
+            <span class="BTC">ETH</span> <span class="drop">+36.5%</span></div><br>
+        <div class="bitcoin02"> <span class="bitcoinword"> BNB</span><span class="bitcoinword3">$19,625.35</span><br>
+            <span class="BTC">BNB</span> <span class="drop">+36.5%</span></div><br>
+        <div class="bitcoin03"> <span class="bitcoinword"> LTC</span><span class="bitcoinword4">$19,625.35</span><br>
+            <span class="BTC">LTC</span> <span class="drop">+36.5%</span></div><br>
+        <div class="bitcoin04"> <span class="bitcoinword"> BCH</span><span class="bitcoinword5">$19,625.35</span><br>
+            <span class="BTC">BCH</span> <span class="drop">+36.5%</span></div><br>
+
+     </div>
+     
+</div>
+<p>
+    
+</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
